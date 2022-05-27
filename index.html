@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta Title="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note Making app</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="text-green-600 body-font bg-green-300">
+    <div class="mx-auto flex p-5 flex-col md:flex-row items-center justify-between">
+      <a class="title-font font-medium text-green-900 lg:items-center lg:justify-center mb-4 md:mb-0 ">
+        <span class="ml-3 text-2xl cursor-pointer" id="back">Note Makeing Website</span>
+      </a>
+      <div class="flex flex-row flex-wrap">
+        <input type="text" id="search" Title="search"
+          class="w-{100vw} bg-green-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        <button
+          class="flex transition-all duration-200 ease-in mx-2 text-white bg-green-600 border-0 py-2 px-4 focus:outline-none hover:bg-green-800 rounded text-lg" onClick="fun()">Search </button>
+            </div>
+        </div>
+    </header>
+    <section class=" text-gray-600 body-font relative">
+          <div class="py-24 mx-auto">
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+              <div class="flex md:flex-col lg:flex-row flex-wrap -m-2">
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="Title" class="leading-7 text-sm text-gray-600">Title</label>
+                    <input type="text" id="title" Title="Title"
+                      class="w-full bg-green-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="Image" class="leading-7 text-sm text-gray-600">Image</label>
+                    <input type="file" id="image" Title="Image"
+                      class="w-full bg-green-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-full">
+                  <div class="relative">
+                    <label for="note" class="leading-7 text-sm text-gray-600">Note</label>
+                    <textarea id="note" Title="note"
+                      class="w-full bg-green-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                  </div>
+                </div>
+                <div class="p-2 w-full">
+                  <button
+                    class="flex transition-all duration-200 ease-in mx-auto text-white bg-green-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-800 rounded text-lg"
+                    onClick="add()">Add Todo</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+          <section class="text-gray-600 body-font">
+            <div class="container flex lg:flex-row sm:flex-col sm:w-9/12 md:flex-row md:mx-auto flex-wrap lg:w-1/2"
+              id="cards">
+              <div>
+          </section>
+</body>
+<script src="main.js"></script>
+
+</html>
