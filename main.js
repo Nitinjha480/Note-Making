@@ -4,12 +4,12 @@ let back = document.getElementById("back");
 let card = [
   {
     name: "Nitin",
-    img: "https://pps.whatsapp.net/v/t61.24694-24/260936846_3083304428578396_5737823181543530376_n.jpg?ccb=11-4&oh=01_AVz-mLJ8qo93UstxDTjF3Tb1jlGc3HPhu_O7dkMrOwdzKw&oe=629C482A",
+    img: "https://images.unsplash.com/photo-1653423368756-6bdc7958330b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
     text: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
   },
   {
     name: "Nirwan",
-    img: "https://pps.whatsapp.net/v/t61.24694-24/233338005_549168603257413_6515484552320171010_n.jpg?ccb=11-4&oh=4c4e557a9eb8e4499356295ee2b98dfd&oe=629D302D",
+    img: "https://images.unsplash.com/photo-1653478986501-61b22a3362ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
     text: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
   },
 ]
